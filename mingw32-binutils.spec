@@ -1,3 +1,5 @@
+%define Werror_cflags %nil
+
 %define binutils_version 2.19
 #define mingw32_binutils_version 20080109-2
 #define mingw32_binutils_rpmvers %{expand:%(echo %{mingw32_binutils_version} | tr - _)}
