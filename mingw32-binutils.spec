@@ -8,7 +8,7 @@ Release:        %mkrel 1
 Summary:        MinGW Windows binutils
 
 License:        GPLv2+ and LGPLv2+ and GPLv3+ and LGPLv3+
-Group:          Development/Libraries
+Group:          Development/Other
 URL:            http://www.mingw.org/
 Source0:        http://dl.sourceforge.net/sourceforge/mingw/binutils-%{binutils_version}-src.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -68,6 +68,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %{_mandir}/man1/*
-%{_bindir}/i686-pc-mingw32-*
-%{_prefix}/i686-pc-mingw32/bin
-%{_prefix}/i686-pc-mingw32/lib/ldscripts
+%{_bindir}/i586-pc-mingw32-*
+%{_prefix}/i586-pc-mingw32/bin
+%{_prefix}/i586-pc-mingw32/lib/ldscripts
