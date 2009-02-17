@@ -1,6 +1,6 @@
 %define Werror_cflags %nil
 
-%define binutils_version 2.19
+%define binutils_version 2.19.1
 #define mingw32_binutils_version 20080109-2
 #define mingw32_binutils_rpmvers %{expand:%(echo %{mingw32_binutils_version} | tr - _)}
 
@@ -12,7 +12,7 @@ Summary:        MinGW Windows binutils
 License:        GPLv2+ and LGPLv2+ and GPLv3+ and LGPLv3+
 Group:          Development/Other
 URL:            http://www.mingw.org/
-Source0:        http://dl.sourceforge.net/sourceforge/mingw/binutils-%{binutils_version}-src.tar.gz
+Source0:        http://dl.sourceforge.net/sourceforge/mingw/binutils-%{binutils_version}-mingw32-src.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:  flex
