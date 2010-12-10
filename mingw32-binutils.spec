@@ -6,7 +6,7 @@
 
 Name:           mingw32-binutils
 Version:        %{binutils_version}
-Release:        %mkrel 2
+Release:        %mkrel 3
 Summary:        MinGW Windows binutils
 
 License:        GPLv2+ and LGPLv2+ and GPLv3+ and LGPLv3+
