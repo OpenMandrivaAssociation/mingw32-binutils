@@ -73,3 +73,24 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/i586-pc-mingw32-*
 %{_prefix}/i586-pc-mingw32/bin
 %{_prefix}/i586-pc-mingw32/lib/ldscripts
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 2.19.1-3mdv2011.0
++ Revision: 620341
+- the mass rebuild of 2010.0 packages
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 2.19.1-2mdv2010.0
++ Revision: 439809
+- rebuild
+
+* Tue Feb 17 2009 Jérôme Soyer <saispo@mandriva.org> 2.19.1-1mdv2009.1
++ Revision: 341432
+- New upstream release
+
+* Wed Feb 04 2009 Jérôme Soyer <saispo@mandriva.org> 2.19-1mdv2009.1
++ Revision: 337426
+- Change arch
+- Come from Fedora spec
+
+
