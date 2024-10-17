@@ -11,7 +11,7 @@ Summary:        MinGW Windows binutils
 
 License:        GPLv2+ and LGPLv2+ and GPLv3+ and LGPLv3+
 Group:          Development/Other
-URL:            http://www.mingw.org/
+URL:            https://www.mingw.org/
 Source0:        http://dl.sourceforge.net/sourceforge/mingw/binutils-%{binutils_version}-mingw32-src.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
